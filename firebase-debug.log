@@ -1,0 +1,36 @@
+[debug] [2023-07-10T14:20:37.798Z] ----------------------------------------------------------------------
+[debug] [2023-07-10T14:20:37.800Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-10T14:20:37.801Z] CLI Version:   12.4.3
+[debug] [2023-07-10T14:20:37.801Z] Platform:      win32
+[debug] [2023-07-10T14:20:37.801Z] Node Version:  v20.2.0
+[debug] [2023-07-10T14:20:37.801Z] Time:          Mon Jul 10 2023 09:20:37 GMT-0500 (hora estándar de Perú)
+[debug] [2023-07-10T14:20:37.801Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-10T14:20:37.881Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-10T14:20:37.882Z] > authorizing via signed-in user (jonathan9579285@gmail.com)
+[debug] [2023-07-10T14:20:37.882Z] [iam] checking project pasteleria-duopie for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2023-07-10T14:20:37.884Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/pasteleria-duopie:testIamPermissions [none]
+[debug] [2023-07-10T14:20:37.884Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/pasteleria-duopie:testIamPermissions x-goog-quota-user=projects/pasteleria-duopie
+[debug] [2023-07-10T14:20:37.884Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/pasteleria-duopie:testIamPermissions {"permissions":["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-07-10T14:20:39.011Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/pasteleria-duopie:testIamPermissions 200
+[debug] [2023-07-10T14:20:39.011Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/pasteleria-duopie:testIamPermissions {"permissions":["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-07-10T14:20:39.012Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie [none]
+[debug] [2023-07-10T14:20:39.434Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie 200
+[debug] [2023-07-10T14:20:39.434Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie {"projectId":"pasteleria-duopie","projectNumber":"204384937698","displayName":"Pasteleria-DuoPie","name":"projects/pasteleria-duopie","resources":{"hostingSite":"pasteleria-duopie","realtimeDatabaseInstance":"pasteleria-duopie-default-rtdb"},"state":"ACTIVE","etag":"1_4e9d29e0-4366-4d80-a140-2f559ba47482"}
+[debug] [2023-07-10T14:20:39.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie [none]
+[debug] [2023-07-10T14:20:39.777Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie 200
+[debug] [2023-07-10T14:20:39.777Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pasteleria-duopie {"projectId":"pasteleria-duopie","projectNumber":"204384937698","displayName":"Pasteleria-DuoPie","name":"projects/pasteleria-duopie","resources":{"hostingSite":"pasteleria-duopie","realtimeDatabaseInstance":"pasteleria-duopie-default-rtdb"},"state":"ACTIVE","etag":"1_4e9d29e0-4366-4d80-a140-2f559ba47482"}
+[info] 
+[info] === Deploying to 'pasteleria-duopie'...
+[info] 
+[info] i  deploying database, hosting 
+[info] i  database: checking rules syntax... 
+[debug] [2023-07-10T14:20:39.782Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/pasteleria-duopie/locations/-/instances/pasteleria-duopie-default-rtdb [none]
+[debug] [2023-07-10T14:20:41.032Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/pasteleria-duopie/locations/-/instances/pasteleria-duopie-default-rtdb 200
+[debug] [2023-07-10T14:20:41.032Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/pasteleria-duopie/locations/-/instances/pasteleria-duopie-default-rtdb {"name":"projects/204384937698/locations/us-central1/instances/pasteleria-duopie-default-rtdb","project":"projects/204384937698","databaseUrl":"https://pasteleria-duopie-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-07-10T14:20:41.033Z] >>> [apiv2][query] PUT https://pasteleria-duopie-default-rtdb.firebaseio.com/.settings/rules.json dryRun=true
+[debug] [2023-07-10T14:20:41.033Z] >>> [apiv2][body] PUT https://pasteleria-duopie-default-rtdb.firebaseio.com/.settings/rules.json "{\n  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2023-07-10T14:20:41.578Z] <<< [apiv2][status] PUT https://pasteleria-duopie-default-rtdb.firebaseio.com/.settings/rules.json 401
+[debug] [2023-07-10T14:20:41.578Z] <<< [apiv2][body] PUT https://pasteleria-duopie-default-rtdb.firebaseio.com/.settings/rules.json {"error":"Unauthorized request."}
+[error] 
+[error] Error: Unexpected error while deploying database rules.
