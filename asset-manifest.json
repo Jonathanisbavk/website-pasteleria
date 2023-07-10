@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/website-pasteleria/static/css/main.f2b5dc73.css",
+    "main.js": "/website-pasteleria/static/js/main.aca15e20.js",
+    "static/js/787.6dbdcbe9.chunk.js": "/website-pasteleria/static/js/787.6dbdcbe9.chunk.js",
+    "static/media/galeria_6.png": "/website-pasteleria/static/media/galeria_6.9ad8d47b246df251968d.png",
+    "static/media/pastel_principal.png": "/website-pasteleria/static/media/pastel_principal.155648b69853ec478585.png",
+    "static/media/galeria_5.png": "/website-pasteleria/static/media/galeria_5.578f576b3313789887c5.png",
+    "static/media/carrusel_2.png": "/website-pasteleria/static/media/carrusel_2.0f55954acbca766feee6.png",
+    "static/media/carrusel_1.png": "/website-pasteleria/static/media/carrusel_1.291832403fc854a0acbe.png",
+    "static/media/carrusel_4.png": "/website-pasteleria/static/media/carrusel_4.301768e132ab0e90e99f.png",
+    "static/media/carrusel_3.png": "/website-pasteleria/static/media/carrusel_3.9e148c64d2b204191730.png",
+    "static/media/Juan_2.png": "/website-pasteleria/static/media/Juan_2.e4fe44801eef069f7e83.png",
+    "static/media/logo.png": "/website-pasteleria/static/media/logo.c6d36d918714ffa3ab70.png",
+    "static/media/galeria_3.png": "/website-pasteleria/static/media/galeria_3.bff406e6b41fc1432cce.png",
+    "static/media/galeria_2.png": "/website-pasteleria/static/media/galeria_2.36b72f5003b264879d4b.png",
+    "static/media/Ana_1.png": "/website-pasteleria/static/media/Ana_1.75d055cd7300db2ab280.png",
+    "static/media/galeria_9.png": "/website-pasteleria/static/media/galeria_9.fc945c6358938d0ffe8f.png",
+    "static/media/galeria_7.png": "/website-pasteleria/static/media/galeria_7.2695befd1e4b1df7a9c3.png",
+    "static/media/galeria_4.png": "/website-pasteleria/static/media/galeria_4.841436ee2d1f9a11a4e7.png",
+    "static/media/galeria_8.png": "/website-pasteleria/static/media/galeria_8.463d060e0c18b2774260.png",
+    "static/media/galeria_1.png": "/website-pasteleria/static/media/galeria_1.0567f4a87a818b02040a.png",
+    "static/media/libro_reclamaciones.png": "/website-pasteleria/static/media/libro_reclamaciones.1565cde1ee2ecb867cbc.png",
+    "static/media/Carla_3.png": "/website-pasteleria/static/media/Carla_3.8941fe0960504bcf0434.png",
+    "static/media/visa.png": "/website-pasteleria/static/media/visa.16b4e597831f494a8cb2.png",
+    "index.html": "/website-pasteleria/index.html",
+    "main.f2b5dc73.css.map": "/website-pasteleria/static/css/main.f2b5dc73.css.map",
+    "main.aca15e20.js.map": "/website-pasteleria/static/js/main.aca15e20.js.map",
+    "787.6dbdcbe9.chunk.js.map": "/website-pasteleria/static/js/787.6dbdcbe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b5dc73.css",
+    "static/js/main.aca15e20.js"
+  ]
+}
